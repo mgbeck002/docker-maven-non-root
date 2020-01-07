@@ -1,4 +1,4 @@
-FROM openjdk:latest
+FROM adoptopenjdk/openjdk13:alpine
 
 RUN apk add --no-cache curl tar bash procps
 
