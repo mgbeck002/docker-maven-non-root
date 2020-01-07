@@ -1,6 +1,6 @@
 FROM adoptopenjdk/openjdk13:alpine
 
-RUN apk add --no-cache curl tar bash procps
+RUN apk add --no-cache curl tar bash procps sudo
 
 ARG MAVEN_VERSION=3.6.3
 ARG USER_HOME_DIR="/home/maven"
